@@ -38,5 +38,5 @@ foreach ($platform in @('EditMode', 'PlayMode')) {
 if (-not $TestsOnly) {
     Invoke-UnityCheck 'Build' @('-quit', '-executeMethod', "$prefix.EditorTools.BuildCommands.BuildWindows")
     Write-Host 'Windows player built. Manual input, visual, and capture checks in Docs/TESTING.md are still required.'
-    if (-not $isRange) { Write-Host 'Task 1: rebuild Installer/ChromaStrike.iss with Inno Setup against this new player, then test the installer.' }
+    if (-not $isRange) { Write-Host 'Next: rebuild Installer/ChromaStrike.iss with Inno Setup against this new player, then test the installer.' }
 }

@@ -6,7 +6,7 @@ namespace ChromaStrike.Spheres
 {
     /// <summary>
     /// Finds a random free position inside the spawn area:
-    ///   X, Z random in [-extent, extent], Y fixed (assignment rule),
+    ///   X, Z random in [-extent, extent], Y fixed,
     ///   never overlapping another sphere, a prop, a wall or the player.
     /// Sphere to sphere distance is checked in plain C# (reliable on the same frame), while walls,
     /// props and the player are checked with Physics.CheckSphere.

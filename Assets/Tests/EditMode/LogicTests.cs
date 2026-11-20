@@ -20,7 +20,7 @@ namespace ChromaStrike.Tests.EditMode
         }
 
         [Test]
-        public void GameConfig_DefaultsMatchTheAssignment()
+        public void GameConfig_DefaultsMatchTheRules()
         {
             var config = ScriptableObject.CreateInstance<GameConfig>();
             Assert.AreEqual(120f, config.roundDurationSeconds);

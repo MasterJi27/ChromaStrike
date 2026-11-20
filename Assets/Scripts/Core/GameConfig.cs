@@ -6,8 +6,8 @@ namespace ChromaStrike.Core
 {
     /// <summary>
     /// ScriptableObject that holds every tunable number of the game.
-    /// The assignment asks us to avoid hard coded values, so spawn counts, timings and player
-    /// settings are all edited from the Inspector instead of being typed into scripts.
+    /// Spawn counts, timings and player settings are all edited from the Inspector
+    /// instead of being typed into scripts.
     /// </summary>
     [CreateAssetMenu(fileName = "GameConfig", menuName = "Chroma Strike/Game Config")]
     public sealed class GameConfig : ScriptableObject
@@ -21,9 +21,9 @@ namespace ChromaStrike.Core
         [Min(0)] public int initialBlue = 5;
 
         [Header("Spawn rules")]
-        [Tooltip("X and Z are drawn from [-extent, +extent]. Assignment value: 10.")]
+        [Tooltip("X and Z are drawn from [-extent, +extent]. Default: 10.")]
         [Min(1f)] public float spawnAreaHalfExtent = 10f;
-        [Tooltip("Y is fixed. Assignment value: 1.")]
+        [Tooltip("Y is fixed. Default: 1.")]
         public float spawnHeight = 1f;
         [Min(0.05f)] public float sphereRadius = 0.5f;
         [Tooltip("Extra empty space kept around every sphere so two spheres never touch.")]
@@ -64,7 +64,7 @@ namespace ChromaStrike.Core
             throw new InvalidOperationException($"No palette entry for {color}. Assign it in the GameConfig asset.");
         }
 
-        /// <summary>The 15 / 10 / 5 distribution from the assignment as a tally.</summary>
+        /// <summary>The 15 / 10 / 5 starting distribution as a tally.</summary>
         public ColorTally InitialTally => new ColorTally(initialRed, initialGreen, initialBlue);
     }
 

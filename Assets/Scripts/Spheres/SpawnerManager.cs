@@ -15,7 +15,7 @@ namespace ChromaStrike.Spheres
     }
 
     /// <summary>
-    /// Owns every sphere in the arena and implements the three spawn rules of the assignment:
+    /// Owns every sphere in the arena and implements the three spawn rules:
     ///   1) the initial 15 / 10 / 5 batch,
     ///   2) one random sphere every 5 seconds,
     ///   3) a replacement batch (same colour ratio) after every 10 destroyed spheres.

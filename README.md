@@ -1,38 +1,32 @@
-# Task 1 - Chroma Strike
-
-## Open the delivered ZIP - updated 2 November 2026
-
-Extract the **entire ZIP** to a short local folder such as `C:\UnityAssignment`. The combined ZIP contains separate `Task1` and `Task2` project folders. Do not run from inside the ZIP.
-
-- **Play without Unity:** double-click `PLAY.cmd` inside this task folder. It finds the bundled Windows player relative to itself, even if the folder is moved. Keep the complete `Builds/Windows` folder, including its `_Data` folder and `UnityPlayer.dll`.
-- **Install:** use the setup EXE in `Installer`; this is an alternative to the portable player.
-- **Edit source:** Unity Hub > Add project from disk > choose this task folder containing `Assets`, `Packages`, and `ProjectSettings`. Use **6000.6.7f1** with an activated Editor license. First import needs internet to restore registry packages. Open the supplied scene; do not regenerate it.
-- **Watch locally:** the owner-provided MP4 is in `Docs`. No YouTube or Google Drive access is required after downloading this ZIP.
-- **Diagnose a launch problem:** `PLAY.cmd` writes the player log to `%TEMP%/Task1-Player.log`. Report the first error and the exact action that failed.
-
+# Chroma Strike
 
 A first-person sphere-targeting game built in Unity. Move around a flat arena, aim with the mouse, and pop color-coded spheres during a 120-second round. The live counters show the spheres remaining, not the cumulative number destroyed.
 
-## Release status - 1 November 2026
+## Status
 
-Unity verification completed: **7 EditMode tests + 5 PlayMode gameplay tests passed**, and the screenshot walkthrough passed. The current Windows player built successfully with **zero build errors and zero warnings**. Start/gameplay/end UI was rendered and reviewed, and the five documentation screenshots were refreshed from the current scene.
+Unity verification: **7 EditMode tests + 5 PlayMode gameplay tests passed**, and the screenshot walkthrough passed. The Windows player builds with **zero errors and zero warnings**. See [feature coverage](Docs/REQUIREMENTS.md), [validation report](Docs/VALIDATION.md), and [testing instructions](Docs/TESTING.md).
 
-The Windows installer is generated from this player using the included Inno Setup recipe. See [requirement coverage](Docs/REQUIREMENTS.md), [validation report](Docs/VALIDATION.md), and [repeatable testing instructions](Docs/TESTING.md).
+## Requirements
 
-## Setup and controls
+- Unity **6000.6.7f1** with Windows Build Support, recorded in `ProjectSettings/ProjectVersion.txt`.
+- An activated Unity Editor license.
+- Internet access on first import to restore registry packages.
 
-1. Activate your Unity license in Unity Hub and open this folder using **Unity 6000.6.7f1** with Windows Build Support.
+## Open and play
+
+1. Unity Hub > **Add project from disk** > select this folder (the one containing `Assets`, `Packages`, and `ProjectSettings`).
 2. Allow packages to restore, then open `Assets/Scenes/Game.unity`.
-3. Press Play and select **Start Game**. Click the Game view if input focus is elsewhere.
-4. Use **WASD** to move, **Mouse** to aim, **Left Mouse** to pop the sphere under the center reticle, and **Shift** to sprint.
-5. **Escape** releases the cursor. Click the game view to resume aiming. The countdown continues.
-6. At time-up, inspect the final red, green and blue counts. Select **Restart** for a fresh round or **Quit** to exit.
+3. Press **Play** and select **Start Game**. Click the Game view if input focus is elsewhere.
 
-The Windows build is `Builds/Windows/Chroma Strike.exe`. Its entire directory is required. The installer is `Installer/ChromaStrike-Setup-1.0.0.exe`.
+### Controls
+
+- **WASD** move, **Mouse** aim, **Left Mouse** pop the sphere under the center reticle, **Shift** sprint.
+- **Escape** releases the cursor. Click the game view to resume aiming. The countdown continues.
+- At time-up, inspect the final red, green and blue counts. Select **Restart** for a fresh round or **Quit** to exit.
 
 ## Gameplay rules
 
-- The Start screen includes the game title and Start button.
+- The start screen includes the game title and Start button.
 - Starting creates exactly **30 spheres: 15 red, 10 green and 5 blue**.
 - Spawn centers use **X/Z between -10 and 10, Y = 1**.
 - Placement checks occupied sphere positions, player clearance and obstacle colliders. When crowded, requests wait for a free position instead of overlapping an existing object.
@@ -62,7 +56,6 @@ Game balancing is configured in `Assets/Settings/GameConfig.asset`. UI layouts a
 
 ## Unity and packages
 
-- Unity **6000.6.7f1**, recorded in `ProjectSettings/ProjectVersion.txt`.
 - Input System **1.20.1**.
 - Universal Render Pipeline **17.6.0**.
 - uGUI / TextMesh Pro **2.0.0**.
@@ -70,17 +63,15 @@ Game balancing is configured in `Assets/Settings/GameConfig.asset`. UI layouts a
 
 `Packages/manifest.json` and `packages-lock.json` record dependencies. The build uses the new Input System.
 
-## Build and installer
+## Build
 
-After license activation, run `Tools/Run-Checks.ps1` to run the Unity checks and build the Windows player. Alternatively, use **Chroma Strike > 3. Build Windows Player** in the editor. Output is `Builds/Windows/Chroma Strike.exe`.
+Run `Tools/Run-Checks.ps1` to run the Unity checks and build the Windows player, or use **Chroma Strike > 3. Build Windows Player** in the editor. Output is `Builds/Windows/Chroma Strike.exe`.
 
-Compile `Installer/ChromaStrike.iss` with Inno Setup's `ISCC.exe` **after** the new player build succeeds. The installer includes the app name, game files, README, Start Menu shortcuts and an optional desktop shortcut. Install the rebuilt installer into a clean folder, launch it, play/restart a round and check uninstall before signing off.
-
-The installer is built from the current Windows player. Silent clean-folder installation succeeded; installed-game walkthrough and uninstall remain unverified. See `Docs/VALIDATION.md`.
+Build output, installers and the local `Library` cache are not tracked; see `.gitignore`.
 
 ## Screenshots
 
-These screenshots were refreshed from the current scene on 1 November 2026. The walkthrough advances simulation time for the low-time and end-screen captures.
+Screenshots are captured from the current scene.
 
 ![Start screen](Docs/Screenshots/01_start_screen.png)
 ![Initial gameplay and counters](Docs/Screenshots/02_gameplay_start.png)
@@ -93,10 +84,9 @@ These screenshots were refreshed from the current scene on 1 November 2026. The 
 - Dense placement can temporarily queue spawns until clearance is available; it never intentionally overlaps a sphere/player to force a spawn.
 - No measured frame-rate or universal hardware compatibility guarantee is made.
 
-## Submission contents
+## Documentation
 
-Submit the Unity source folder (`Assets`, `Packages`, `ProjectSettings`), this README, Docs with screenshots, and the rebuilt Windows installer. Exclude `Library`, `Temp`, `Logs`, `obj`, `UserSettings` and generated test scenes. A 30-60 second gameplay video is optional for Task 1.
-
-To refresh documentation, run `python Tools/build_docs.py` (requires ReportLab). Recompile the installer after documentation or player changes, then run `python Tools/package_source.py`. Packaging verifies required files, archive integrity and file hashes before replacing the existing task ZIP.
-
-The owner-provided gameplay recording is `Docs/ChromaStrike_Gameplay.mp4` (68 seconds), supplied on 2 November 2026. It demonstrates gameplay, not a complete 120-second round.
+- `Docs/REQUIREMENTS.md` - feature coverage
+- `Docs/VALIDATION.md` - validation report
+- `Docs/TESTING.md` - repeatable testing steps
+- `Docs/ChromaStrike_Gameplay.mp4` - 68-second gameplay recording

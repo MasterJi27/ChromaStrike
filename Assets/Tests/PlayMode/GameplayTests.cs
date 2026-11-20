@@ -11,7 +11,7 @@ using ChromaStrike.Spheres;
 namespace ChromaStrike.Tests.PlayMode
 {
     /// <summary>
-    /// Loads the real Game scene and checks every gameplay rule of the assignment end to end.
+    /// Loads the real Game scene and checks every gameplay rule end to end.
     /// GameManager.Advance(seconds) lets the tests fast forward the 120 second round.
     /// </summary>
     public class GameplayTests
@@ -67,7 +67,7 @@ namespace ChromaStrike.Tests.PlayMode
             ColorTally spawnedBatch = default;
             spawner.BatchSpawned += batch => spawnedBatch = batch;
 
-            // Destroy 5 red, 2 green, 3 blue (the example from the assignment).
+            // Destroy 5 red, 2 green, 3 blue.
             var plan = new Dictionary<SphereColor, int> { { SphereColor.Red, 5 }, { SphereColor.Green, 2 }, { SphereColor.Blue, 3 } };
             foreach (var entry in plan)
             {

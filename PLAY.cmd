@@ -5,7 +5,7 @@ if not exist "Builds\Windows\Chroma Strike.exe" goto missing
 if not exist "Builds\Windows\UnityPlayer.dll" goto missing
 if not exist "Builds\Windows\Chroma Strike_Data\globalgamemanagers" goto missing
 pushd "Builds\Windows"
-start "" "Chroma Strike.exe" -logFile "%TEMP%\Task1-Player.log"
+start "" "Chroma Strike.exe" -logFile "%TEMP%\ChromaStrike-Player.log"
 popd
 exit /b 0
 :missing
