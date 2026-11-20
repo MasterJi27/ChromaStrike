@@ -1,0 +1,1 @@
+Assets\Scripts\Editor\ProjectSetup.cs(47,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'

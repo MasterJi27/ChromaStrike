@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 06:54:17Z" end-time="2026-11-01 06:54:19Z" duration="1.3774679">
+  <test-suite type="TestSuite" id="1016" name="Chroma Strike" fullname="Chroma Strike" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-01 06:54:17Z" end-time="2026-11-01 06:54:19Z" duration="1.377468" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1009" name="ChromaStrike.Tests.PlayMode.dll" fullname="D:/Projects/Task1_ChromaStrike/Library/ScriptAssemblies/ChromaStrike.Tests.PlayMode.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-01 06:54:17Z" end-time="2026-11-01 06:54:19Z" duration="1.368375" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32520" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1010" name="ChromaStrike" fullname="ChromaStrike" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-01 06:54:17Z" end-time="2026-11-01 06:54:19Z" duration="1.367673" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1011" name="Tests" fullname="ChromaStrike.Tests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-01 06:54:17Z" end-time="2026-11-01 06:54:19Z" duration="1.367353" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1012" name="PlayMode" fullname="ChromaStrike.Tests.PlayMode" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-01 06:54:17Z" end-time="2026-11-01 06:54:19Z" duration="1.367025" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="GameplayTests" fullname="ChromaStrike.Tests.PlayMode.GameplayTests" classname="ChromaStrike.Tests.PlayMode.GameplayTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-01 06:54:17Z" end-time="2026-11-01 06:54:19Z" duration="1.365739" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1006" name="CentreRaycast_DestroysTheSphereUnderTheCrosshair" fullname="ChromaStrike.Tests.PlayMode.GameplayTests.CentreRaycast_DestroysTheSphereUnderTheCrosshair" methodname="CentreRaycast_DestroysTheSphereUnderTheCrosshair" classname="ChromaStrike.Tests.PlayMode.GameplayTests" runstate="Runnable" seed="1423254660" result="Passed" start-time="2026-11-01 06:54:17Z" end-time="2026-11-01 06:54:18Z" duration="1.086373" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="DestroyingTen_SpawnsTenWithTheSameRatio" fullname="ChromaStrike.Tests.PlayMode.GameplayTests.DestroyingTen_SpawnsTenWithTheSameRatio" methodname="DestroyingTen_SpawnsTenWithTheSameRatio" classname="ChromaStrike.Tests.PlayMode.GameplayTests" runstate="Runnable" seed="205893176" result="Passed" start-time="2026-11-01 06:54:18Z" end-time="2026-11-01 06:54:18Z" duration="0.077119" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="EveryFiveSeconds_OneRandomSphereIsAdded" fullname="ChromaStrike.Tests.PlayMode.GameplayTests.EveryFiveSeconds_OneRandomSphereIsAdded" methodname="EveryFiveSeconds_OneRandomSphereIsAdded" classname="ChromaStrike.Tests.PlayMode.GameplayTests" runstate="Runnable" seed="890668609" result="Passed" start-time="2026-11-01 06:54:18Z" end-time="2026-11-01 06:54:19Z" duration="0.078605" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="InitialBatch_Is30Spheres_15Red_10Green_5Blue_AtLegalPositions" fullname="ChromaStrike.Tests.PlayMode.GameplayTests.InitialBatch_Is30Spheres_15Red_10Green_5Blue_AtLegalPositions" methodname="InitialBatch_Is30Spheres_15Red_10Green_5Blue_AtLegalPositions" classname="ChromaStrike.Tests.PlayMode.GameplayTests" runstate="Runnable" seed="73460232" result="Passed" start-time="2026-11-01 06:54:19Z" end-time="2026-11-01 06:54:19Z" duration="0.053196" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="RoundEndsAfterExactlyTwoMinutes_AndCanRestart" fullname="ChromaStrike.Tests.PlayMode.GameplayTests.RoundEndsAfterExactlyTwoMinutes_AndCanRestart" methodname="RoundEndsAfterExactlyTwoMinutes_AndCanRestart" classname="ChromaStrike.Tests.PlayMode.GameplayTests" runstate="Runnable" seed="861656788" result="Passed" start-time="2026-11-01 06:54:19Z" end-time="2026-11-01 06:54:19Z" duration="0.057142" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/RaghavKathuria/AppData/LocalLow/Raghav Kathuria/Chroma Strike\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

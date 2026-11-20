@@ -1,0 +1,998 @@
+﻿2026-11-01 12:39:50.875   Log opened. (Time zone: UTC+05:30)
+2026-11-01 12:39:50.875   Setup version: Inno Setup version 6.7.4
+2026-11-01 12:39:50.875   Original Setup EXE: D:\Projects\Task1_ChromaStrike\Installer\ChromaStrike-Setup-1.0.0.exe
+2026-11-01 12:39:50.875   Setup command line: /SL5="$E0BD0,37954669,893952,D:\Projects\Task1_ChromaStrike\Installer\ChromaStrike-Setup-1.0.0.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /TASKS="" /DIR="D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall" /LOG="D:\Projects\Task1_ChromaStrike\Docs\Validation\Installer-Smoke.log"
+2026-11-01 12:39:50.875   Windows version: 10.0.26300
+2026-11-01 12:39:50.875   Windows architecture: x64 (64-bit)
+2026-11-01 12:39:50.875   Machine types supported by system: x86 x64
+2026-11-01 12:39:50.876   User privileges: None
+2026-11-01 12:39:50.879   Administrative install mode: No
+2026-11-01 12:39:50.879   Install mode root key: HKEY_CURRENT_USER
+2026-11-01 12:39:50.879   64-bit install mode: Yes
+2026-11-01 12:39:50.879   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-11-01 12:39:50.881   Created temporary directory: C:\Users\RAGHAV~1\AppData\Local\Temp\is-SDIEQKMCEE.tmp
+2026-11-01 12:39:51.058   Found 152 files to register with RestartManager.
+2026-11-01 12:39:51.058   Calling RestartManager's RmGetList.
+2026-11-01 12:39:51.071   RmGetList finished successfully.
+2026-11-01 12:39:51.071   RestartManager found no applications using one of our files.
+2026-11-01 12:39:51.076   Starting the installation process.
+2026-11-01 12:39:51.078   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall
+2026-11-01 12:39:51.078   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_BackUpThisFolder_ButDontShipItWithYourGame
+2026-11-01 12:39:51.078   Directory for uninstall files: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall
+2026-11-01 12:39:51.078   Creating new uninstall log: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\unins000.dat
+2026-11-01 12:39:51.094   -- File entry --
+2026-11-01 12:39:51.094   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\unins000.exe
+2026-11-01 12:39:51.094   Non-default bitness: 32-bit
+2026-11-01 12:39:51.106   Time stamp of our file: 2026-11-01 12:39:50.137
+2026-11-01 12:39:51.106   Installing the file.
+2026-11-01 12:39:51.113   Successfully installed the file.
+2026-11-01 12:39:51.113   -- File entry --
+2026-11-01 12:39:51.113   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike.exe
+2026-11-01 12:39:51.113   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:51.113   Installing the file.
+2026-11-01 12:39:51.125   Successfully installed the file.
+2026-11-01 12:39:51.125   -- File entry --
+2026-11-01 12:39:51.125   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\dstorage.dll
+2026-11-01 12:39:51.127   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:51.127   Installing the file.
+2026-11-01 12:39:51.132   Successfully installed the file.
+2026-11-01 12:39:51.132   -- File entry --
+2026-11-01 12:39:51.132   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\dstoragecore.dll
+2026-11-01 12:39:51.132   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:51.132   Installing the file.
+2026-11-01 12:39:51.160   Successfully installed the file.
+2026-11-01 12:39:51.160   -- File entry --
+2026-11-01 12:39:51.160   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\UnityCrashHandler64.exe
+2026-11-01 12:39:51.160   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:51.160   Installing the file.
+2026-11-01 12:39:51.190   Successfully installed the file.
+2026-11-01 12:39:51.190   -- File entry --
+2026-11-01 12:39:51.190   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\UnityPlayer.dll
+2026-11-01 12:39:51.190   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:51.190   Installing the file.
+2026-11-01 12:39:52.057   Successfully installed the file.
+2026-11-01 12:39:52.057   -- File entry --
+2026-11-01 12:39:52.057   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\app.info
+2026-11-01 12:39:52.057   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.057   Installing the file.
+2026-11-01 12:39:52.057   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data
+2026-11-01 12:39:52.058   Successfully installed the file.
+2026-11-01 12:39:52.058   -- File entry --
+2026-11-01 12:39:52.058   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\boot.config
+2026-11-01 12:39:52.058   Time stamp of our file: 2026-11-01 12:24:52.000
+2026-11-01 12:39:52.058   Installing the file.
+2026-11-01 12:39:52.059   Successfully installed the file.
+2026-11-01 12:39:52.059   -- File entry --
+2026-11-01 12:39:52.059   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\globalgamemanagers
+2026-11-01 12:39:52.059   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.059   Installing the file.
+2026-11-01 12:39:52.061   Successfully installed the file.
+2026-11-01 12:39:52.061   -- File entry --
+2026-11-01 12:39:52.061   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\globalgamemanagers.assets
+2026-11-01 12:39:52.061   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.061   Installing the file.
+2026-11-01 12:39:52.067   Successfully installed the file.
+2026-11-01 12:39:52.067   -- File entry --
+2026-11-01 12:39:52.067   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\globalgamemanagers.assets.resS
+2026-11-01 12:39:52.068   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.068   Installing the file.
+2026-11-01 12:39:52.153   Successfully installed the file.
+2026-11-01 12:39:52.153   -- File entry --
+2026-11-01 12:39:52.154   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\level0
+2026-11-01 12:39:52.154   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.154   Installing the file.
+2026-11-01 12:39:52.155   Successfully installed the file.
+2026-11-01 12:39:52.155   -- File entry --
+2026-11-01 12:39:52.155   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\level0.resS
+2026-11-01 12:39:52.155   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.155   Installing the file.
+2026-11-01 12:39:52.157   Successfully installed the file.
+2026-11-01 12:39:52.157   -- File entry --
+2026-11-01 12:39:52.157   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\resources.assets
+2026-11-01 12:39:52.157   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.157   Installing the file.
+2026-11-01 12:39:52.168   Successfully installed the file.
+2026-11-01 12:39:52.168   -- File entry --
+2026-11-01 12:39:52.168   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\resources.assets.resS
+2026-11-01 12:39:52.168   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.168   Installing the file.
+2026-11-01 12:39:52.185   Successfully installed the file.
+2026-11-01 12:39:52.185   -- File entry --
+2026-11-01 12:39:52.185   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\RuntimeInitializeOnLoads.json
+2026-11-01 12:39:52.185   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.185   Installing the file.
+2026-11-01 12:39:52.186   Successfully installed the file.
+2026-11-01 12:39:52.186   -- File entry --
+2026-11-01 12:39:52.187   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\ScriptingAssemblies.json
+2026-11-01 12:39:52.187   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.187   Installing the file.
+2026-11-01 12:39:52.187   Successfully installed the file.
+2026-11-01 12:39:52.187   -- File entry --
+2026-11-01 12:39:52.187   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\sharedassets0.assets
+2026-11-01 12:39:52.189   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.189   Installing the file.
+2026-11-01 12:39:52.205   Successfully installed the file.
+2026-11-01 12:39:52.205   -- File entry --
+2026-11-01 12:39:52.205   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\sharedassets0.assets.resS
+2026-11-01 12:39:52.205   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.205   Installing the file.
+2026-11-01 12:39:52.760   Successfully installed the file.
+2026-11-01 12:39:52.760   -- File entry --
+2026-11-01 12:39:52.760   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\sharedassets0.resource
+2026-11-01 12:39:52.760   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:52.760   Installing the file.
+2026-11-01 12:39:52.765   Successfully installed the file.
+2026-11-01 12:39:52.766   -- File entry --
+2026-11-01 12:39:52.766   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\ChromaStrike.Runtime.dll
+2026-11-01 12:39:52.766   Time stamp of our file: 2026-11-01 12:24:52.000
+2026-11-01 12:39:52.766   Installing the file.
+2026-11-01 12:39:52.766   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed
+2026-11-01 12:39:52.768   Successfully installed the file.
+2026-11-01 12:39:52.768   -- File entry --
+2026-11-01 12:39:52.768   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Mono.Security.dll
+2026-11-01 12:39:52.768   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.768   Installing the file.
+2026-11-01 12:39:52.775   Successfully installed the file.
+2026-11-01 12:39:52.775   -- File entry --
+2026-11-01 12:39:52.775   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\mscorlib.dll
+2026-11-01 12:39:52.775   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.775   Installing the file.
+2026-11-01 12:39:52.874   Successfully installed the file.
+2026-11-01 12:39:52.874   -- File entry --
+2026-11-01 12:39:52.874   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\netstandard.dll
+2026-11-01 12:39:52.874   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.874   Installing the file.
+2026-11-01 12:39:52.876   Successfully installed the file.
+2026-11-01 12:39:52.876   -- File entry --
+2026-11-01 12:39:52.876   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Buffers.dll
+2026-11-01 12:39:52.876   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:52.877   Installing the file.
+2026-11-01 12:39:52.877   Successfully installed the file.
+2026-11-01 12:39:52.877   -- File entry --
+2026-11-01 12:39:52.877   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Collections.Immutable.dll
+2026-11-01 12:39:52.877   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.877   Installing the file.
+2026-11-01 12:39:52.885   Successfully installed the file.
+2026-11-01 12:39:52.885   -- File entry --
+2026-11-01 12:39:52.885   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.ComponentModel.Composition.dll
+2026-11-01 12:39:52.885   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.885   Installing the file.
+2026-11-01 12:39:52.892   Successfully installed the file.
+2026-11-01 12:39:52.892   -- File entry --
+2026-11-01 12:39:52.892   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Configuration.dll
+2026-11-01 12:39:52.892   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.892   Installing the file.
+2026-11-01 12:39:52.895   Successfully installed the file.
+2026-11-01 12:39:52.896   -- File entry --
+2026-11-01 12:39:52.896   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Core.dll
+2026-11-01 12:39:52.896   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.896   Installing the file.
+2026-11-01 12:39:52.918   Successfully installed the file.
+2026-11-01 12:39:52.918   -- File entry --
+2026-11-01 12:39:52.918   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Data.DataSetExtensions.dll
+2026-11-01 12:39:52.918   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.918   Installing the file.
+2026-11-01 12:39:52.920   Successfully installed the file.
+2026-11-01 12:39:52.921   -- File entry --
+2026-11-01 12:39:52.921   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Data.dll
+2026-11-01 12:39:52.921   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.921   Installing the file.
+2026-11-01 12:39:52.966   Successfully installed the file.
+2026-11-01 12:39:52.966   -- File entry --
+2026-11-01 12:39:52.966   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.dll
+2026-11-01 12:39:52.966   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:52.966   Installing the file.
+2026-11-01 12:39:53.027   Successfully installed the file.
+2026-11-01 12:39:53.027   -- File entry --
+2026-11-01 12:39:53.027   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Drawing.dll
+2026-11-01 12:39:53.028   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.028   Installing the file.
+2026-11-01 12:39:53.039   Successfully installed the file.
+2026-11-01 12:39:53.039   -- File entry --
+2026-11-01 12:39:53.040   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.EnterpriseServices.dll
+2026-11-01 12:39:53.040   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.040   Installing the file.
+2026-11-01 12:39:53.041   Successfully installed the file.
+2026-11-01 12:39:53.041   -- File entry --
+2026-11-01 12:39:53.041   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.IO.Compression.dll
+2026-11-01 12:39:53.041   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.041   Installing the file.
+2026-11-01 12:39:53.045   Successfully installed the file.
+2026-11-01 12:39:53.045   -- File entry --
+2026-11-01 12:39:53.045   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.IO.Compression.FileSystem.dll
+2026-11-01 12:39:53.045   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.045   Installing the file.
+2026-11-01 12:39:53.046   Successfully installed the file.
+2026-11-01 12:39:53.046   -- File entry --
+2026-11-01 12:39:53.046   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Memory.dll
+2026-11-01 12:39:53.046   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.046   Installing the file.
+2026-11-01 12:39:53.047   Successfully installed the file.
+2026-11-01 12:39:53.047   -- File entry --
+2026-11-01 12:39:53.047   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Net.Http.dll
+2026-11-01 12:39:53.047   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.047   Installing the file.
+2026-11-01 12:39:53.051   Successfully installed the file.
+2026-11-01 12:39:53.051   -- File entry --
+2026-11-01 12:39:53.051   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Numerics.dll
+2026-11-01 12:39:53.051   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.051   Installing the file.
+2026-11-01 12:39:53.055   Successfully installed the file.
+2026-11-01 12:39:53.055   -- File entry --
+2026-11-01 12:39:53.055   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Reflection.Metadata.dll
+2026-11-01 12:39:53.056   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.056   Installing the file.
+2026-11-01 12:39:53.067   Successfully installed the file.
+2026-11-01 12:39:53.067   -- File entry --
+2026-11-01 12:39:53.067   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Runtime.CompilerServices.Unsafe.dll
+2026-11-01 12:39:53.068   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.068   Installing the file.
+2026-11-01 12:39:53.068   Successfully installed the file.
+2026-11-01 12:39:53.068   -- File entry --
+2026-11-01 12:39:53.068   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Runtime.Serialization.dll
+2026-11-01 12:39:53.068   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.068   Installing the file.
+2026-11-01 12:39:53.089   Successfully installed the file.
+2026-11-01 12:39:53.089   -- File entry --
+2026-11-01 12:39:53.089   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Security.dll
+2026-11-01 12:39:53.090   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.090   Installing the file.
+2026-11-01 12:39:53.097   Successfully installed the file.
+2026-11-01 12:39:53.097   -- File entry --
+2026-11-01 12:39:53.097   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.ServiceModel.Internals.dll
+2026-11-01 12:39:53.097   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.097   Installing the file.
+2026-11-01 12:39:53.103   Successfully installed the file.
+2026-11-01 12:39:53.103   -- File entry --
+2026-11-01 12:39:53.103   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Transactions.dll
+2026-11-01 12:39:53.103   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.103   Installing the file.
+2026-11-01 12:39:53.105   Successfully installed the file.
+2026-11-01 12:39:53.105   -- File entry --
+2026-11-01 12:39:53.105   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Xml.dll
+2026-11-01 12:39:53.105   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.105   Installing the file.
+2026-11-01 12:39:53.174   Successfully installed the file.
+2026-11-01 12:39:53.174   -- File entry --
+2026-11-01 12:39:53.174   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\System.Xml.Linq.dll
+2026-11-01 12:39:53.174   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.174   Installing the file.
+2026-11-01 12:39:53.178   Successfully installed the file.
+2026-11-01 12:39:53.178   -- File entry --
+2026-11-01 12:39:53.178   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Burst.dll
+2026-11-01 12:39:53.178   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.178   Installing the file.
+2026-11-01 12:39:53.179   Successfully installed the file.
+2026-11-01 12:39:53.179   -- File entry --
+2026-11-01 12:39:53.179   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Collections.dll
+2026-11-01 12:39:53.179   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.179   Installing the file.
+2026-11-01 12:39:53.189   Successfully installed the file.
+2026-11-01 12:39:53.189   -- File entry --
+2026-11-01 12:39:53.189   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Collections.LowLevel.ILSupport.dll
+2026-11-01 12:39:53.189   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.189   Installing the file.
+2026-11-01 12:39:53.189   Successfully installed the file.
+2026-11-01 12:39:53.189   -- File entry --
+2026-11-01 12:39:53.190   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Collections.Tests.CoreCLR.InternalJobNestedPrivate.dll
+2026-11-01 12:39:53.190   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.190   Installing the file.
+2026-11-01 12:39:53.191   Successfully installed the file.
+2026-11-01 12:39:53.191   -- File entry --
+2026-11-01 12:39:53.191   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Collections.Tests.CoreCLR.PrivateJobNested.dll
+2026-11-01 12:39:53.191   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.191   Installing the file.
+2026-11-01 12:39:53.191   Successfully installed the file.
+2026-11-01 12:39:53.191   -- File entry --
+2026-11-01 12:39:53.191   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Collections.Tests.CoreCLR.ProtectedJobNested.dll
+2026-11-01 12:39:53.191   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.191   Installing the file.
+2026-11-01 12:39:53.193   Successfully installed the file.
+2026-11-01 12:39:53.193   -- File entry --
+2026-11-01 12:39:53.193   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Collections.Tests.CoreCLR.PublicJobPrivateGeneric.dll
+2026-11-01 12:39:53.193   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.193   Installing the file.
+2026-11-01 12:39:53.194   Successfully installed the file.
+2026-11-01 12:39:53.194   -- File entry --
+2026-11-01 12:39:53.194   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.InputSystem.dll
+2026-11-01 12:39:53.194   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.194   Installing the file.
+2026-11-01 12:39:53.217   Successfully installed the file.
+2026-11-01 12:39:53.217   -- File entry --
+2026-11-01 12:39:53.218   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.InputSystem.ForUI.dll
+2026-11-01 12:39:53.218   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.218   Installing the file.
+2026-11-01 12:39:53.218   Successfully installed the file.
+2026-11-01 12:39:53.218   -- File entry --
+2026-11-01 12:39:53.218   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.InternalAPIEngineBridge.004.dll
+2026-11-01 12:39:53.219   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.219   Installing the file.
+2026-11-01 12:39:53.219   Successfully installed the file.
+2026-11-01 12:39:53.219   -- File entry --
+2026-11-01 12:39:53.220   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.InternalAPIEngineBridge.ObjectDispatcher.Runtime.dll
+2026-11-01 12:39:53.220   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.220   Installing the file.
+2026-11-01 12:39:53.220   Successfully installed the file.
+2026-11-01 12:39:53.221   -- File entry --
+2026-11-01 12:39:53.221   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll
+2026-11-01 12:39:53.221   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.221   Installing the file.
+2026-11-01 12:39:53.221   Successfully installed the file.
+2026-11-01 12:39:53.221   -- File entry --
+2026-11-01 12:39:53.221   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.PathTracing.Runtime.dll
+2026-11-01 12:39:53.222   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.222   Installing the file.
+2026-11-01 12:39:53.226   Successfully installed the file.
+2026-11-01 12:39:53.226   -- File entry --
+2026-11-01 12:39:53.227   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Profiling.Core.dll
+2026-11-01 12:39:53.227   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.227   Installing the file.
+2026-11-01 12:39:53.228   Successfully installed the file.
+2026-11-01 12:39:53.228   -- File entry --
+2026-11-01 12:39:53.228   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+2026-11-01 12:39:53.228   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.228   Installing the file.
+2026-11-01 12:39:53.229   Successfully installed the file.
+2026-11-01 12:39:53.229   -- File entry --
+2026-11-01 12:39:53.229   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+2026-11-01 12:39:53.229   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.229   Installing the file.
+2026-11-01 12:39:53.261   Successfully installed the file.
+2026-11-01 12:39:53.261   -- File entry --
+2026-11-01 12:39:53.261   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.Core.Runtime.Shared.dll
+2026-11-01 12:39:53.261   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.261   Installing the file.
+2026-11-01 12:39:53.262   Successfully installed the file.
+2026-11-01 12:39:53.262   -- File entry --
+2026-11-01 12:39:53.262   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+2026-11-01 12:39:53.262   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.262   Installing the file.
+2026-11-01 12:39:53.263   Successfully installed the file.
+2026-11-01 12:39:53.263   -- File entry --
+2026-11-01 12:39:53.263   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.GPUDriven.Runtime.dll
+2026-11-01 12:39:53.263   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.263   Installing the file.
+2026-11-01 12:39:53.270   Successfully installed the file.
+2026-11-01 12:39:53.270   -- File entry --
+2026-11-01 12:39:53.271   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+2026-11-01 12:39:53.271   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.271   Installing the file.
+2026-11-01 12:39:53.271   Successfully installed the file.
+2026-11-01 12:39:53.271   -- File entry --
+2026-11-01 12:39:53.271   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.Universal.2D.Runtime.dll
+2026-11-01 12:39:53.271   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.271   Installing the file.
+2026-11-01 12:39:53.277   Successfully installed the file.
+2026-11-01 12:39:53.277   -- File entry --
+2026-11-01 12:39:53.277   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.Universal.Config.Runtime.dll
+2026-11-01 12:39:53.278   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.278   Installing the file.
+2026-11-01 12:39:53.278   Successfully installed the file.
+2026-11-01 12:39:53.278   -- File entry --
+2026-11-01 12:39:53.278   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+2026-11-01 12:39:53.278   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.278   Installing the file.
+2026-11-01 12:39:53.322   Successfully installed the file.
+2026-11-01 12:39:53.322   -- File entry --
+2026-11-01 12:39:53.322   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+2026-11-01 12:39:53.322   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.322   Installing the file.
+2026-11-01 12:39:53.323   Successfully installed the file.
+2026-11-01 12:39:53.324   -- File entry --
+2026-11-01 12:39:53.324   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.Scripting.dll
+2026-11-01 12:39:53.324   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.324   Installing the file.
+2026-11-01 12:39:53.326   Successfully installed the file.
+2026-11-01 12:39:53.326   -- File entry --
+2026-11-01 12:39:53.326   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.SurfaceCache.Runtime.dll
+2026-11-01 12:39:53.327   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.327   Installing the file.
+2026-11-01 12:39:53.328   Successfully installed the file.
+2026-11-01 12:39:53.328   -- File entry --
+2026-11-01 12:39:53.328   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.TextMeshPro.dll
+2026-11-01 12:39:53.328   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.328   Installing the file.
+2026-11-01 12:39:53.338   Successfully installed the file.
+2026-11-01 12:39:53.338   -- File entry --
+2026-11-01 12:39:53.338   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\Unity.UnifiedRayTracing.Runtime.dll
+2026-11-01 12:39:53.338   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.338   Installing the file.
+2026-11-01 12:39:53.342   Successfully installed the file.
+2026-11-01 12:39:53.342   -- File entry --
+2026-11-01 12:39:53.342   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.AccessibilityModule.dll
+2026-11-01 12:39:53.342   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.342   Installing the file.
+2026-11-01 12:39:53.344   Successfully installed the file.
+2026-11-01 12:39:53.344   -- File entry --
+2026-11-01 12:39:53.344   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.AdaptivePerformanceModule.dll
+2026-11-01 12:39:53.344   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.344   Installing the file.
+2026-11-01 12:39:53.348   Successfully installed the file.
+2026-11-01 12:39:53.348   -- File entry --
+2026-11-01 12:39:53.348   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.AIModule.dll
+2026-11-01 12:39:53.348   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.348   Installing the file.
+2026-11-01 12:39:53.351   Successfully installed the file.
+2026-11-01 12:39:53.351   -- File entry --
+2026-11-01 12:39:53.351   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.AMDModule.dll
+2026-11-01 12:39:53.351   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.351   Installing the file.
+2026-11-01 12:39:53.352   Successfully installed the file.
+2026-11-01 12:39:53.352   -- File entry --
+2026-11-01 12:39:53.353   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.AndroidJNIModule.dll
+2026-11-01 12:39:53.353   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.353   Installing the file.
+2026-11-01 12:39:53.355   Successfully installed the file.
+2026-11-01 12:39:53.355   -- File entry --
+2026-11-01 12:39:53.355   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.AnimationModule.dll
+2026-11-01 12:39:53.355   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.355   Installing the file.
+2026-11-01 12:39:53.360   Successfully installed the file.
+2026-11-01 12:39:53.360   -- File entry --
+2026-11-01 12:39:53.362   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ARModule.dll
+2026-11-01 12:39:53.362   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.362   Installing the file.
+2026-11-01 12:39:53.363   Successfully installed the file.
+2026-11-01 12:39:53.363   -- File entry --
+2026-11-01 12:39:53.363   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.AssetBundleModule.dll
+2026-11-01 12:39:53.363   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.363   Installing the file.
+2026-11-01 12:39:53.365   Successfully installed the file.
+2026-11-01 12:39:53.365   -- File entry --
+2026-11-01 12:39:53.365   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.AudioModule.dll
+2026-11-01 12:39:53.365   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.365   Installing the file.
+2026-11-01 12:39:53.368   Successfully installed the file.
+2026-11-01 12:39:53.368   -- File entry --
+2026-11-01 12:39:53.368   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.BurstModule.dll
+2026-11-01 12:39:53.369   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.369   Installing the file.
+2026-11-01 12:39:53.375   Successfully installed the file.
+2026-11-01 12:39:53.375   -- File entry --
+2026-11-01 12:39:53.376   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ClothModule.dll
+2026-11-01 12:39:53.376   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.376   Installing the file.
+2026-11-01 12:39:53.377   Successfully installed the file.
+2026-11-01 12:39:53.377   -- File entry --
+2026-11-01 12:39:53.377   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ClusterInputModule.dll
+2026-11-01 12:39:53.377   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.377   Installing the file.
+2026-11-01 12:39:53.379   Successfully installed the file.
+2026-11-01 12:39:53.379   -- File entry --
+2026-11-01 12:39:53.379   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ClusterRendererModule.dll
+2026-11-01 12:39:53.379   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.379   Installing the file.
+2026-11-01 12:39:53.380   Successfully installed the file.
+2026-11-01 12:39:53.380   -- File entry --
+2026-11-01 12:39:53.381   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ContentLoadModule.dll
+2026-11-01 12:39:53.381   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.381   Installing the file.
+2026-11-01 12:39:53.383   Successfully installed the file.
+2026-11-01 12:39:53.383   -- File entry --
+2026-11-01 12:39:53.383   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.CoreModule.dll
+2026-11-01 12:39:53.383   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.383   Installing the file.
+2026-11-01 12:39:53.423   Successfully installed the file.
+2026-11-01 12:39:53.423   -- File entry --
+2026-11-01 12:39:53.423   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.CrashReportingModule.dll
+2026-11-01 12:39:53.423   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.423   Installing the file.
+2026-11-01 12:39:53.425   Successfully installed the file.
+2026-11-01 12:39:53.425   -- File entry --
+2026-11-01 12:39:53.425   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.DirectorModule.dll
+2026-11-01 12:39:53.425   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.425   Installing the file.
+2026-11-01 12:39:53.427   Successfully installed the file.
+2026-11-01 12:39:53.427   -- File entry --
+2026-11-01 12:39:53.427   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.dll
+2026-11-01 12:39:53.427   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.427   Installing the file.
+2026-11-01 12:39:53.431   Successfully installed the file.
+2026-11-01 12:39:53.431   -- File entry --
+2026-11-01 12:39:53.431   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.DSPGraphModule.dll
+2026-11-01 12:39:53.431   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.431   Installing the file.
+2026-11-01 12:39:53.433   Successfully installed the file.
+2026-11-01 12:39:53.433   -- File entry --
+2026-11-01 12:39:53.433   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.GameCenterModule.dll
+2026-11-01 12:39:53.433   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.433   Installing the file.
+2026-11-01 12:39:53.434   Successfully installed the file.
+2026-11-01 12:39:53.434   -- File entry --
+2026-11-01 12:39:53.434   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.GIModule.dll
+2026-11-01 12:39:53.434   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.434   Installing the file.
+2026-11-01 12:39:53.435   Successfully installed the file.
+2026-11-01 12:39:53.435   -- File entry --
+2026-11-01 12:39:53.435   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.GraphicsStateCollectionSerializerModule.dll
+2026-11-01 12:39:53.435   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.435   Installing the file.
+2026-11-01 12:39:53.436   Successfully installed the file.
+2026-11-01 12:39:53.436   -- File entry --
+2026-11-01 12:39:53.436   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.GridModule.dll
+2026-11-01 12:39:53.436   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.436   Installing the file.
+2026-11-01 12:39:53.437   Successfully installed the file.
+2026-11-01 12:39:53.437   -- File entry --
+2026-11-01 12:39:53.438   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.HierarchyCoreModule.dll
+2026-11-01 12:39:53.438   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.438   Installing the file.
+2026-11-01 12:39:53.440   Successfully installed the file.
+2026-11-01 12:39:53.440   -- File entry --
+2026-11-01 12:39:53.440   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.HierarchyModule.dll
+2026-11-01 12:39:53.440   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.440   Installing the file.
+2026-11-01 12:39:53.443   Successfully installed the file.
+2026-11-01 12:39:53.443   -- File entry --
+2026-11-01 12:39:53.443   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.HotReloadModule.dll
+2026-11-01 12:39:53.443   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.443   Installing the file.
+2026-11-01 12:39:53.444   Successfully installed the file.
+2026-11-01 12:39:53.444   -- File entry --
+2026-11-01 12:39:53.444   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.IdentifiersModule.dll
+2026-11-01 12:39:53.444   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.444   Installing the file.
+2026-11-01 12:39:53.446   Successfully installed the file.
+2026-11-01 12:39:53.446   -- File entry --
+2026-11-01 12:39:53.446   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ImageConversionModule.dll
+2026-11-01 12:39:53.446   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.446   Installing the file.
+2026-11-01 12:39:53.447   Successfully installed the file.
+2026-11-01 12:39:53.447   -- File entry --
+2026-11-01 12:39:53.447   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.IMGUIModule.dll
+2026-11-01 12:39:53.447   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.447   Installing the file.
+2026-11-01 12:39:53.452   Successfully installed the file.
+2026-11-01 12:39:53.452   -- File entry --
+2026-11-01 12:39:53.452   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.InputForUIModule.dll
+2026-11-01 12:39:53.452   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.452   Installing the file.
+2026-11-01 12:39:53.454   Successfully installed the file.
+2026-11-01 12:39:53.454   -- File entry --
+2026-11-01 12:39:53.454   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.InputLegacyModule.dll
+2026-11-01 12:39:53.454   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.454   Installing the file.
+2026-11-01 12:39:53.456   Successfully installed the file.
+2026-11-01 12:39:53.456   -- File entry --
+2026-11-01 12:39:53.456   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.InputModule.dll
+2026-11-01 12:39:53.456   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.456   Installing the file.
+2026-11-01 12:39:53.457   Successfully installed the file.
+2026-11-01 12:39:53.457   -- File entry --
+2026-11-01 12:39:53.457   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.InsightsModule.dll
+2026-11-01 12:39:53.457   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.457   Installing the file.
+2026-11-01 12:39:53.458   Successfully installed the file.
+2026-11-01 12:39:53.458   -- File entry --
+2026-11-01 12:39:53.458   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.JSONSerializeModule.dll
+2026-11-01 12:39:53.458   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.458   Installing the file.
+2026-11-01 12:39:53.459   Successfully installed the file.
+2026-11-01 12:39:53.459   -- File entry --
+2026-11-01 12:39:53.459   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.LocalizationModule.dll
+2026-11-01 12:39:53.459   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.459   Installing the file.
+2026-11-01 12:39:53.462   Successfully installed the file.
+2026-11-01 12:39:53.462   -- File entry --
+2026-11-01 12:39:53.462   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ManagedKernelModule.dll
+2026-11-01 12:39:53.462   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.462   Installing the file.
+2026-11-01 12:39:53.463   Successfully installed the file.
+2026-11-01 12:39:53.463   -- File entry --
+2026-11-01 12:39:53.463   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.MarshallingModule.dll
+2026-11-01 12:39:53.463   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.463   Installing the file.
+2026-11-01 12:39:53.465   Successfully installed the file.
+2026-11-01 12:39:53.465   -- File entry --
+2026-11-01 12:39:53.465   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.MathematicsModule.dll
+2026-11-01 12:39:53.465   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.465   Installing the file.
+2026-11-01 12:39:53.478   Successfully installed the file.
+2026-11-01 12:39:53.478   -- File entry --
+2026-11-01 12:39:53.478   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.MultiplayerModule.dll
+2026-11-01 12:39:53.478   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.478   Installing the file.
+2026-11-01 12:39:53.479   Successfully installed the file.
+2026-11-01 12:39:53.479   -- File entry --
+2026-11-01 12:39:53.479   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.NVIDIAModule.dll
+2026-11-01 12:39:53.479   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.479   Installing the file.
+2026-11-01 12:39:53.481   Successfully installed the file.
+2026-11-01 12:39:53.481   -- File entry --
+2026-11-01 12:39:53.481   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ParticleSystemModule.dll
+2026-11-01 12:39:53.481   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.481   Installing the file.
+2026-11-01 12:39:53.485   Successfully installed the file.
+2026-11-01 12:39:53.486   -- File entry --
+2026-11-01 12:39:53.486   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+2026-11-01 12:39:53.486   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.486   Installing the file.
+2026-11-01 12:39:53.486   Successfully installed the file.
+2026-11-01 12:39:53.486   -- File entry --
+2026-11-01 12:39:53.486   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.Physics2DModule.dll
+2026-11-01 12:39:53.488   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.488   Installing the file.
+2026-11-01 12:39:53.491   Successfully installed the file.
+2026-11-01 12:39:53.491   -- File entry --
+2026-11-01 12:39:53.491   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.PhysicsBackendPhysXModule.dll
+2026-11-01 12:39:53.493   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.493   Installing the file.
+2026-11-01 12:39:53.493   Successfully installed the file.
+2026-11-01 12:39:53.493   -- File entry --
+2026-11-01 12:39:53.493   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.PhysicsCore2DModule.dll
+2026-11-01 12:39:53.494   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.494   Installing the file.
+2026-11-01 12:39:53.502   Successfully installed the file.
+2026-11-01 12:39:53.502   -- File entry --
+2026-11-01 12:39:53.502   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.PhysicsModule.dll
+2026-11-01 12:39:53.502   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.502   Installing the file.
+2026-11-01 12:39:53.507   Successfully installed the file.
+2026-11-01 12:39:53.507   -- File entry --
+2026-11-01 12:39:53.507   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.PropertiesModule.dll
+2026-11-01 12:39:53.507   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.507   Installing the file.
+2026-11-01 12:39:53.510   Successfully installed the file.
+2026-11-01 12:39:53.510   -- File entry --
+2026-11-01 12:39:53.510   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.RenderAs2DModule.dll
+2026-11-01 12:39:53.511   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.511   Installing the file.
+2026-11-01 12:39:53.511   Successfully installed the file.
+2026-11-01 12:39:53.511   -- File entry --
+2026-11-01 12:39:53.511   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+2026-11-01 12:39:53.511   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.511   Installing the file.
+2026-11-01 12:39:53.512   Successfully installed the file.
+2026-11-01 12:39:53.512   -- File entry --
+2026-11-01 12:39:53.512   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+2026-11-01 12:39:53.512   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.512   Installing the file.
+2026-11-01 12:39:53.513   Successfully installed the file.
+2026-11-01 12:39:53.513   -- File entry --
+2026-11-01 12:39:53.513   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ScriptingModule.dll
+2026-11-01 12:39:53.513   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.513   Installing the file.
+2026-11-01 12:39:53.515   Successfully installed the file.
+2026-11-01 12:39:53.515   -- File entry --
+2026-11-01 12:39:53.515   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.ShaderVariantAnalyticsModule.dll
+2026-11-01 12:39:53.515   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.515   Installing the file.
+2026-11-01 12:39:53.516   Successfully installed the file.
+2026-11-01 12:39:53.516   -- File entry --
+2026-11-01 12:39:53.516   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.SpriteMaskModule.dll
+2026-11-01 12:39:53.516   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.516   Installing the file.
+2026-11-01 12:39:53.517   Successfully installed the file.
+2026-11-01 12:39:53.517   -- File entry --
+2026-11-01 12:39:53.517   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.SpriteShapeModule.dll
+2026-11-01 12:39:53.518   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.518   Installing the file.
+2026-11-01 12:39:53.518   Successfully installed the file.
+2026-11-01 12:39:53.518   -- File entry --
+2026-11-01 12:39:53.518   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.StreamingModule.dll
+2026-11-01 12:39:53.518   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.518   Installing the file.
+2026-11-01 12:39:53.520   Successfully installed the file.
+2026-11-01 12:39:53.520   -- File entry --
+2026-11-01 12:39:53.520   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.SubstanceModule.dll
+2026-11-01 12:39:53.521   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.521   Installing the file.
+2026-11-01 12:39:53.521   Successfully installed the file.
+2026-11-01 12:39:53.521   -- File entry --
+2026-11-01 12:39:53.521   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.SubsystemsModule.dll
+2026-11-01 12:39:53.521   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.521   Installing the file.
+2026-11-01 12:39:53.522   Successfully installed the file.
+2026-11-01 12:39:53.522   -- File entry --
+2026-11-01 12:39:53.522   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TerrainModule.dll
+2026-11-01 12:39:53.522   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.522   Installing the file.
+2026-11-01 12:39:53.526   Successfully installed the file.
+2026-11-01 12:39:53.526   -- File entry --
+2026-11-01 12:39:53.526   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+2026-11-01 12:39:53.526   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.526   Installing the file.
+2026-11-01 12:39:53.527   Successfully installed the file.
+2026-11-01 12:39:53.527   -- File entry --
+2026-11-01 12:39:53.527   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TetgenModule.dll
+2026-11-01 12:39:53.527   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.527   Installing the file.
+2026-11-01 12:39:53.528   Successfully installed the file.
+2026-11-01 12:39:53.528   -- File entry --
+2026-11-01 12:39:53.528   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
+2026-11-01 12:39:53.528   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.528   Installing the file.
+2026-11-01 12:39:53.531   Successfully installed the file.
+2026-11-01 12:39:53.531   -- File entry --
+2026-11-01 12:39:53.531   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
+2026-11-01 12:39:53.531   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.531   Installing the file.
+2026-11-01 12:39:53.538   Successfully installed the file.
+2026-11-01 12:39:53.538   -- File entry --
+2026-11-01 12:39:53.538   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TextRenderingModule.dll
+2026-11-01 12:39:53.538   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.538   Installing the file.
+2026-11-01 12:39:53.539   Successfully installed the file.
+2026-11-01 12:39:53.539   -- File entry --
+2026-11-01 12:39:53.540   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TilemapModule.dll
+2026-11-01 12:39:53.540   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.540   Installing the file.
+2026-11-01 12:39:53.542   Successfully installed the file.
+2026-11-01 12:39:53.542   -- File entry --
+2026-11-01 12:39:53.542   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TimelineFoundationModule.dll
+2026-11-01 12:39:53.542   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.542   Installing the file.
+2026-11-01 12:39:53.547   Successfully installed the file.
+2026-11-01 12:39:53.547   -- File entry --
+2026-11-01 12:39:53.547   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.TLSModule.dll
+2026-11-01 12:39:53.547   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.547   Installing the file.
+2026-11-01 12:39:53.548   Successfully installed the file.
+2026-11-01 12:39:53.548   -- File entry --
+2026-11-01 12:39:53.548   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.U2DRuntimeModule.dll
+2026-11-01 12:39:53.548   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.548   Installing the file.
+2026-11-01 12:39:53.550   Successfully installed the file.
+2026-11-01 12:39:53.550   -- File entry --
+2026-11-01 12:39:53.550   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UI.dll
+2026-11-01 12:39:53.550   Time stamp of our file: 2026-10-31 21:20:38.000
+2026-11-01 12:39:53.550   Installing the file.
+2026-11-01 12:39:53.558   Successfully installed the file.
+2026-11-01 12:39:53.558   -- File entry --
+2026-11-01 12:39:53.558   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UIElementsModule.dll
+2026-11-01 12:39:53.558   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.558   Installing the file.
+2026-11-01 12:39:53.613   Successfully installed the file.
+2026-11-01 12:39:53.613   -- File entry --
+2026-11-01 12:39:53.615   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UIModule.dll
+2026-11-01 12:39:53.615   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.615   Installing the file.
+2026-11-01 12:39:53.616   Successfully installed the file.
+2026-11-01 12:39:53.616   -- File entry --
+2026-11-01 12:39:53.616   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UmbraModule.dll
+2026-11-01 12:39:53.617   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.617   Installing the file.
+2026-11-01 12:39:53.618   Successfully installed the file.
+2026-11-01 12:39:53.618   -- File entry --
+2026-11-01 12:39:53.618   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
+2026-11-01 12:39:53.618   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.618   Installing the file.
+2026-11-01 12:39:53.619   Successfully installed the file.
+2026-11-01 12:39:53.619   -- File entry --
+2026-11-01 12:39:53.619   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+2026-11-01 12:39:53.620   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.620   Installing the file.
+2026-11-01 12:39:53.622   Successfully installed the file.
+2026-11-01 12:39:53.622   -- File entry --
+2026-11-01 12:39:53.623   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityConnectModule.dll
+2026-11-01 12:39:53.623   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.623   Installing the file.
+2026-11-01 12:39:53.626   Successfully installed the file.
+2026-11-01 12:39:53.626   -- File entry --
+2026-11-01 12:39:53.627   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityConsentModule.dll
+2026-11-01 12:39:53.627   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.627   Installing the file.
+2026-11-01 12:39:53.629   Successfully installed the file.
+2026-11-01 12:39:53.629   -- File entry --
+2026-11-01 12:39:53.629   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityCurlModule.dll
+2026-11-01 12:39:53.629   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.629   Installing the file.
+2026-11-01 12:39:53.631   Successfully installed the file.
+2026-11-01 12:39:53.631   -- File entry --
+2026-11-01 12:39:53.631   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+2026-11-01 12:39:53.631   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.631   Installing the file.
+2026-11-01 12:39:53.632   Successfully installed the file.
+2026-11-01 12:39:53.632   -- File entry --
+2026-11-01 12:39:53.632   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+2026-11-01 12:39:53.633   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.633   Installing the file.
+2026-11-01 12:39:53.634   Successfully installed the file.
+2026-11-01 12:39:53.634   -- File entry --
+2026-11-01 12:39:53.634   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+2026-11-01 12:39:53.634   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.634   Installing the file.
+2026-11-01 12:39:53.640   Successfully installed the file.
+2026-11-01 12:39:53.640   -- File entry --
+2026-11-01 12:39:53.640   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+2026-11-01 12:39:53.641   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.641   Installing the file.
+2026-11-01 12:39:53.642   Successfully installed the file.
+2026-11-01 12:39:53.642   -- File entry --
+2026-11-01 12:39:53.642   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+2026-11-01 12:39:53.643   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.643   Installing the file.
+2026-11-01 12:39:53.644   Successfully installed the file.
+2026-11-01 12:39:53.644   -- File entry --
+2026-11-01 12:39:53.645   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.VectorGraphicsModule.dll
+2026-11-01 12:39:53.645   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.645   Installing the file.
+2026-11-01 12:39:53.658   Successfully installed the file.
+2026-11-01 12:39:53.658   -- File entry --
+2026-11-01 12:39:53.658   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.VehiclesModule.dll
+2026-11-01 12:39:53.658   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.658   Installing the file.
+2026-11-01 12:39:53.663   Successfully installed the file.
+2026-11-01 12:39:53.663   -- File entry --
+2026-11-01 12:39:53.663   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.VFXModule.dll
+2026-11-01 12:39:53.663   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.663   Installing the file.
+2026-11-01 12:39:53.666   Successfully installed the file.
+2026-11-01 12:39:53.666   -- File entry --
+2026-11-01 12:39:53.666   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.VideoModule.dll
+2026-11-01 12:39:53.667   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.667   Installing the file.
+2026-11-01 12:39:53.668   Successfully installed the file.
+2026-11-01 12:39:53.668   -- File entry --
+2026-11-01 12:39:53.668   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+2026-11-01 12:39:53.669   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.669   Installing the file.
+2026-11-01 12:39:53.671   Successfully installed the file.
+2026-11-01 12:39:53.671   -- File entry --
+2026-11-01 12:39:53.671   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.WindModule.dll
+2026-11-01 12:39:53.671   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.671   Installing the file.
+2026-11-01 12:39:53.673   Successfully installed the file.
+2026-11-01 12:39:53.673   -- File entry --
+2026-11-01 12:39:53.673   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Managed\UnityEngine.XRModule.dll
+2026-11-01 12:39:53.673   Time stamp of our file: 2026-10-31 21:20:40.000
+2026-11-01 12:39:53.673   Installing the file.
+2026-11-01 12:39:53.677   Successfully installed the file.
+2026-11-01 12:39:53.677   -- File entry --
+2026-11-01 12:39:53.677   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Plugins\x86_64\lib_burst_generated.dll
+2026-11-01 12:39:53.678   Time stamp of our file: 2026-10-31 21:20:44.000
+2026-11-01 12:39:53.678   Installing the file.
+2026-11-01 12:39:53.678   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Plugins
+2026-11-01 12:39:53.678   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Plugins\x86_64
+2026-11-01 12:39:53.696   Successfully installed the file.
+2026-11-01 12:39:53.696   -- File entry --
+2026-11-01 12:39:53.696   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Resources\unity default resources
+2026-11-01 12:39:53.697   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:53.697   Installing the file.
+2026-11-01 12:39:53.697   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Resources
+2026-11-01 12:39:53.772   Successfully installed the file.
+2026-11-01 12:39:53.772   -- File entry --
+2026-11-01 12:39:53.772   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\Chroma Strike_Data\Resources\unity_builtin_extra
+2026-11-01 12:39:53.772   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:53.772   Installing the file.
+2026-11-01 12:39:53.780   Successfully installed the file.
+2026-11-01 12:39:53.780   -- File entry --
+2026-11-01 12:39:53.780   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\D3D12\D3D12Core.dll
+2026-11-01 12:39:53.780   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:53.780   Installing the file.
+2026-11-01 12:39:53.780   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\D3D12
+2026-11-01 12:39:53.880   Successfully installed the file.
+2026-11-01 12:39:53.880   -- File entry --
+2026-11-01 12:39:53.880   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+2026-11-01 12:39:53.880   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:53.880   Installing the file.
+2026-11-01 12:39:53.880   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge
+2026-11-01 12:39:53.880   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\EmbedRuntime
+2026-11-01 12:39:54.046   Successfully installed the file.
+2026-11-01 12:39:54.046   -- File entry --
+2026-11-01 12:39:54.048   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+2026-11-01 12:39:54.048   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.048   Installing the file.
+2026-11-01 12:39:54.056   Successfully installed the file.
+2026-11-01 12:39:54.056   -- File entry --
+2026-11-01 12:39:54.056   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\browscap.ini
+2026-11-01 12:39:54.057   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.057   Installing the file.
+2026-11-01 12:39:54.057   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc
+2026-11-01 12:39:54.057   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono
+2026-11-01 12:39:54.062   Successfully installed the file.
+2026-11-01 12:39:54.062   -- File entry --
+2026-11-01 12:39:54.062   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\config
+2026-11-01 12:39:54.062   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.062   Installing the file.
+2026-11-01 12:39:54.062   Successfully installed the file.
+2026-11-01 12:39:54.062   -- File entry --
+2026-11-01 12:39:54.062   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+2026-11-01 12:39:54.062   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.062   Installing the file.
+2026-11-01 12:39:54.062   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\2.0
+2026-11-01 12:39:54.064   Successfully installed the file.
+2026-11-01 12:39:54.064   -- File entry --
+2026-11-01 12:39:54.064   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\2.0\machine.config
+2026-11-01 12:39:54.065   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.065   Installing the file.
+2026-11-01 12:39:54.065   Successfully installed the file.
+2026-11-01 12:39:54.066   -- File entry --
+2026-11-01 12:39:54.066   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\2.0\settings.map
+2026-11-01 12:39:54.066   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.066   Installing the file.
+2026-11-01 12:39:54.066   Successfully installed the file.
+2026-11-01 12:39:54.066   -- File entry --
+2026-11-01 12:39:54.066   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\2.0\web.config
+2026-11-01 12:39:54.067   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.067   Installing the file.
+2026-11-01 12:39:54.067   Successfully installed the file.
+2026-11-01 12:39:54.067   -- File entry --
+2026-11-01 12:39:54.067   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+2026-11-01 12:39:54.067   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.067   Installing the file.
+2026-11-01 12:39:54.067   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\2.0\Browsers
+2026-11-01 12:39:54.068   Successfully installed the file.
+2026-11-01 12:39:54.068   -- File entry --
+2026-11-01 12:39:54.068   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+2026-11-01 12:39:54.069   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.069   Installing the file.
+2026-11-01 12:39:54.069   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.0
+2026-11-01 12:39:54.070   Successfully installed the file.
+2026-11-01 12:39:54.070   -- File entry --
+2026-11-01 12:39:54.070   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.0\machine.config
+2026-11-01 12:39:54.070   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.070   Installing the file.
+2026-11-01 12:39:54.071   Successfully installed the file.
+2026-11-01 12:39:54.071   -- File entry --
+2026-11-01 12:39:54.071   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.0\settings.map
+2026-11-01 12:39:54.071   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.071   Installing the file.
+2026-11-01 12:39:54.071   Successfully installed the file.
+2026-11-01 12:39:54.072   -- File entry --
+2026-11-01 12:39:54.072   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.0\web.config
+2026-11-01 12:39:54.072   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.072   Installing the file.
+2026-11-01 12:39:54.072   Successfully installed the file.
+2026-11-01 12:39:54.072   -- File entry --
+2026-11-01 12:39:54.072   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+2026-11-01 12:39:54.072   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.072   Installing the file.
+2026-11-01 12:39:54.072   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.0\Browsers
+2026-11-01 12:39:54.073   Successfully installed the file.
+2026-11-01 12:39:54.073   -- File entry --
+2026-11-01 12:39:54.074   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+2026-11-01 12:39:54.074   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.074   Installing the file.
+2026-11-01 12:39:54.074   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.5
+2026-11-01 12:39:54.075   Successfully installed the file.
+2026-11-01 12:39:54.075   -- File entry --
+2026-11-01 12:39:54.075   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.5\machine.config
+2026-11-01 12:39:54.075   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.075   Installing the file.
+2026-11-01 12:39:54.076   Successfully installed the file.
+2026-11-01 12:39:54.076   -- File entry --
+2026-11-01 12:39:54.076   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.5\settings.map
+2026-11-01 12:39:54.076   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.076   Installing the file.
+2026-11-01 12:39:54.077   Successfully installed the file.
+2026-11-01 12:39:54.077   -- File entry --
+2026-11-01 12:39:54.077   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.5\web.config
+2026-11-01 12:39:54.077   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.077   Installing the file.
+2026-11-01 12:39:54.077   Successfully installed the file.
+2026-11-01 12:39:54.077   -- File entry --
+2026-11-01 12:39:54.077   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+2026-11-01 12:39:54.077   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.077   Installing the file.
+2026-11-01 12:39:54.077   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\4.5\Browsers
+2026-11-01 12:39:54.079   Successfully installed the file.
+2026-11-01 12:39:54.079   -- File entry --
+2026-11-01 12:39:54.079   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\mconfig\config.xml
+2026-11-01 12:39:54.079   Time stamp of our file: 2026-10-31 21:20:32.000
+2026-11-01 12:39:54.079   Installing the file.
+2026-11-01 12:39:54.079   Creating directory: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\MonoBleedingEdge\etc\mono\mconfig
+2026-11-01 12:39:54.080   Successfully installed the file.
+2026-11-01 12:39:54.080   -- File entry --
+2026-11-01 12:39:54.080   Dest filename: D:\Projects\Task1_ChromaStrike\Installer\SmokeInstall\README.md
+2026-11-01 12:39:54.080   Time stamp of our file: 2026-11-01 12:37:06.000
+2026-11-01 12:39:54.080   Installing the file.
+2026-11-01 12:39:54.081   Successfully installed the file.
+2026-11-01 12:39:54.081   -- Icon entry --
+2026-11-01 12:39:54.081   Dest filename: C:\Users\RaghavKathuria\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chroma Strike\Chroma Strike.lnk
+2026-11-01 12:39:54.081   Creating directory: C:\Users\RaghavKathuria\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chroma Strike
+2026-11-01 12:39:54.101   Creating the icon.
+2026-11-01 12:39:54.172   Successfully created the icon.
+2026-11-01 12:39:54.190   -- Icon entry --
+2026-11-01 12:39:54.190   Dest filename: C:\Users\RaghavKathuria\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chroma Strike\Uninstall Chroma Strike.lnk
+2026-11-01 12:39:54.191   Creating the icon.
+2026-11-01 12:39:54.197   Successfully created the icon.
+2026-11-01 12:39:54.214   Saving uninstall information.
+2026-11-01 12:39:54.214   Creating new uninstall key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\{4AE116E5-370C-43FC-9BD4-38F7F6B1947C}_is1
+2026-11-01 12:39:54.214   Writing uninstall key values.
+2026-11-01 12:39:54.214   Detected previous administrative 64-bit install? No
+2026-11-01 12:39:54.214   Detected previous administrative 32-bit install? No
+2026-11-01 12:39:54.297   Installation process succeeded.
+2026-11-01 12:39:54.297   Need to restart Windows? No
+2026-11-01 12:39:54.300   Deinitializing Setup.
+2026-11-01 12:39:54.307   Log closed.

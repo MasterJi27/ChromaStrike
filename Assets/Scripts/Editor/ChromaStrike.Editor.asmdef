@@ -1,0 +1,8 @@
+{
+  "name": "ChromaStrike.Editor",
+  "rootNamespace": "ChromaStrike.EditorTools",
+  "references": ["ChromaStrike.Runtime", "Unity.InputSystem", "Unity.TextMeshPro", "Unity.TextMeshPro.Editor", "UnityEngine.UI", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Editor"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "autoReferenced": false
+}

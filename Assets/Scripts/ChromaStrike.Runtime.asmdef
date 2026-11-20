@@ -1,0 +1,10 @@
+{
+  "name": "ChromaStrike.Runtime",
+  "rootNamespace": "ChromaStrike",
+  "references": ["Unity.InputSystem", "Unity.TextMeshPro", "UnityEngine.UI"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "autoReferenced": true
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.060974">
+  <test-suite type="TestSuite" id="1000" name="Chroma Strike" fullname="Chroma Strike" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.060974" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1009" name="ChromaStrike.Tests.EditMode.dll" fullname="D:/Projects/Task1_ChromaStrike/Library/ScriptAssemblies/ChromaStrike.Tests.EditMode.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.052034" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="30660" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1010" name="ChromaStrike" fullname="ChromaStrike" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.051640" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1011" name="Tests" fullname="ChromaStrike.Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.051534" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1012" name="EditMode" fullname="ChromaStrike.Tests.EditMode" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.051396" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="LogicTests" fullname="ChromaStrike.Tests.EditMode.LogicTests" classname="ChromaStrike.Tests.EditMode.LogicTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.050244" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1005" name="BatchTracker_SecondBatchStartsFresh" fullname="ChromaStrike.Tests.EditMode.LogicTests.BatchTracker_SecondBatchStartsFresh" methodname="BatchTracker_SecondBatchStartsFresh" classname="ChromaStrike.Tests.EditMode.LogicTests" runstate="Runnable" seed="2011624199" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.018479" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="BatchTracker_TenDestroyed_ReturnsSameColourRatio" fullname="ChromaStrike.Tests.EditMode.LogicTests.BatchTracker_TenDestroyed_ReturnsSameColourRatio" methodname="BatchTracker_TenDestroyed_ReturnsSameColourRatio" classname="ChromaStrike.Tests.EditMode.LogicTests" runstate="Runnable" seed="309912924" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.001535" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="ColorTally_IndexerAndTotal" fullname="ChromaStrike.Tests.EditMode.LogicTests.ColorTally_IndexerAndTotal" methodname="ColorTally_IndexerAndTotal" classname="ChromaStrike.Tests.EditMode.LogicTests" runstate="Runnable" seed="1676837245" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.000315" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="CountdownTimer_FinishesExactlyOnceAtTwoMinutes" fullname="ChromaStrike.Tests.EditMode.LogicTests.CountdownTimer_FinishesExactlyOnceAtTwoMinutes" methodname="CountdownTimer_FinishesExactlyOnceAtTwoMinutes" classname="ChromaStrike.Tests.EditMode.LogicTests" runstate="Runnable" seed="757130962" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.001734" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="GameConfig_DefaultsMatchTheAssignment" fullname="ChromaStrike.Tests.EditMode.LogicTests.GameConfig_DefaultsMatchTheAssignment" methodname="GameConfig_DefaultsMatchTheAssignment" classname="ChromaStrike.Tests.EditMode.LogicTests" runstate="Runnable" seed="1051672172" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.000966" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="RepeatingTimer_FiresEveryFiveSeconds_EvenAfterALagSpike" fullname="ChromaStrike.Tests.EditMode.LogicTests.RepeatingTimer_FiresEveryFiveSeconds_EvenAfterALagSpike" methodname="RepeatingTimer_FiresEveryFiveSeconds_EvenAfterALagSpike" classname="ChromaStrike.Tests.EditMode.LogicTests" runstate="Runnable" seed="473371373" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.000423" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="SpawnPointFinder_ProducesLegalNonOverlappingPositions" fullname="ChromaStrike.Tests.EditMode.LogicTests.SpawnPointFinder_ProducesLegalNonOverlappingPositions" methodname="SpawnPointFinder_ProducesLegalNonOverlappingPositions" classname="ChromaStrike.Tests.EditMode.LogicTests" runstate="Runnable" seed="922457513" result="Passed" start-time="2026-11-01 06:53:54Z" end-time="2026-11-01 06:53:54Z" duration="0.011801" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/RaghavKathuria/AppData/LocalLow/Raghav Kathuria/Chroma Strike\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
